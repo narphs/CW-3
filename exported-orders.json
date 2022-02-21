@@ -1,0 +1,9 @@
+[{
+  "_id": {
+    "$oid": "602e6be5142d700f96f9e884"
+  },
+  "name": "Junaid",
+  "subject": "Biology",
+  "space": 1,
+  "phone": 123456
+}]

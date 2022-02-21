@@ -1,0 +1,99 @@
+{
+	"info": {
+		"_postman_id": "94f4b9e2-5505-4983-ab2e-4c6f1dc38042",
+		"name": "coursework 2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "view lessons",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{app}}/collection/lessons",
+					"host": [
+						"{{app}}"
+					],
+					"path": [
+						"collection",
+						"lessons"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add object",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{app}}/collection/lessons/",
+					"host": [
+						"{{app}}"
+					],
+					"path": [
+						"collection",
+						"lessons",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update object",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "{{app}}/collection/lessons/",
+					"host": [
+						"{{app}}"
+					],
+					"path": [
+						"collection",
+						"lessons",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "remove object",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "view one lesson",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{app}}/collection/lessons/602af009a278b50fd6474ae2",
+					"host": [
+						"{{app}}"
+					],
+					"path": [
+						"collection",
+						"lessons",
+						"602af009a278b50fd6474ae2"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "app",
+			"value": "https://junaid-cw-2.herokuapp.com"
+		}
+	]
+}
